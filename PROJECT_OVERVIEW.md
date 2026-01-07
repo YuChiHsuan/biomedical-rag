@@ -10,7 +10,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system design
 
 The system follows a strict pipeline designed for **safety**, **efficiency**, and **accuracy**.
 
-<div style="text-align: center;">
+<div align="center">
   <img src="./images/system_architecture.png" alt="system_architecture" style="width: 40%;">
 </div>
 
@@ -20,7 +20,7 @@ Initial filtering and processing of user input:
 
 * Supports Text and Audio (via OpenAI Whisper)
 
-* Filters excessively long messages (audio >15s, text >150 characters)
+* Filters excessively long messages (audio >15 seconds, text >150 characters)
 
 * Language Detection (langdetect) & Translation (Google Translator) converts all queries to English for optimal retrieval performance
 
@@ -204,8 +204,8 @@ To balance speed and coverage, the system employs a two-tier search:
 
 Using database retrieval reduces the overall time required for the RAG pipeline.
 
-<div style="text-align: center;">
-  <img src="./images/search_method_response_time.png" alt="system_architecture" style="width: 500;">
+<div align="center">
+  <img src="./images/search_method_response_time.png" alt="system_architecture" width="650">
 </div>
 
 ---
@@ -238,8 +238,8 @@ To reduce API latency and costs, I implemented a vector-similarity based cache.
 
 **Performance Impact:** Cache hits reduce response time from 10-15s down to ~1s
 
-<div style="text-align: center;">
-  <video src="./images/demo_fast_response.mp4" width="300" autoplay loop muted></video><br>
+<div align="center">
+  <img src="./images/demo_fast_response.gif" width="400"><br>
 </div>
 
 ## **4. Performance Metrics**
@@ -274,7 +274,7 @@ Based on testing:
 
 * **NLP/ML:** sentence-transformers, scikit-learn, langdetect
 
-* **APIs:** OpenAI (Whisper, GPT-4o-mini), Google Translate, * NCBI E-utilities
+* **APIs:** OpenAI (Whisper, GPT-4o-mini), Google Translate, NCBI E-utilities
 
 * **Interface:** LINE Messaging API
 
