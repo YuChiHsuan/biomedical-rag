@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Hsuan, Yu-Chi
+Copyright (c) 2025 Hsuan, Yu-Chi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Medical Disclaimer
+
+This software is provided for educational and research purposes only. It is NOT intended to:
+- Provide medical advice, diagnosis, or treatment
+- Replace professional medical consultation
+- Be used as a sole source of medical information
+
+Users should always consult qualified healthcare professionals for medical decisions.
+The authors and contributors assume no liability for any medical outcomes resulting 
+from the use of this software.
