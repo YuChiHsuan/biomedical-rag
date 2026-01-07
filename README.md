@@ -48,9 +48,9 @@ The value of this project lies in its engineered RAG pipeline, ensuring **safety
       <i>Handles overly<br>long messages</i>
     </td>
     <td width="25%">
-        <video src="./images/demo_fast_response.mp4" width="300" autoplay loop muted></video><br>
-        <b>Cached Response</b><br>
-        <i>Similar queries answered<br>in 1 second</i>
+      <img src="./images/demo_fast_response.gif" width="200"><br>
+      <b>Cached Response</b><br>
+      <i>Similar queries answered<br>in 1 second</i>
     </td>
   </tr>
 </table>
