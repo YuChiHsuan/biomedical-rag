@@ -1,0 +1,73 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# ==================== Environment Variables ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== IDE ====================
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==================== Models & Large Files ====================
+# Fine-tuned models (too large for git)
+biomedical-rag-finetuned/
+binary_classifier_finetuned.pkl
+*.pkl
+*.h5
+*.pth
+*.bin
+*.onnx
+
+# ==================== Cache Files ====================
+keywords_cache.json
+
+# ==================== Jupyter Notebook ====================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================== Database ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== Logs ====================
+*.log
+logs/
+
+# ==================== OS ====================
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ==================== Testing ====================
+.pytest_cache/
+.coverage
+htmlcov/

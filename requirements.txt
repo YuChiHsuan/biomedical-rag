@@ -1,0 +1,13 @@
+flask
+python-dotenv
+line-bot-sdk>=3.0.0 # 支援 v3 MessagingApiBlob
+openai>=1.0.0
+numpy
+scikit-learn
+pymysql
+beautifulsoup4
+langdetect
+deep-translator
+sentence-transformers
+joblib
+requests
