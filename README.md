@@ -73,7 +73,7 @@ The value of this project lies in its engineered RAG pipeline, ensuring **safety
 
 This diagram illustrates the multi-stage RAG pipeline:
 
-<div style="text-align: center;">
+<div align="center">
   <img src="./images/system_architecture.png" alt="system_architecture" style="width: 40%;">
 </div>
 
