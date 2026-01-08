@@ -4,6 +4,8 @@
 
 A specialized Retrieval-Augmented Generation (RAG) system designed for biomedical literature. This project features a custom two-stage fine-tuned embedding model, a multi-tier hybrid search strategy, and a local security gate to ensure accurate and cost-effective query handling.
 
+> **Detailed Documentation**: See [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) for architecture details, model fine-tuning methodology, and performance analysis.
+
 ## Core System Highlights
 
 The value of this project lies in its engineered RAG pipeline, ensuring **safety**, **efficiency**, and **domain accuracy**.
